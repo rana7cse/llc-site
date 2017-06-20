@@ -1,0 +1,121 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.hero-text h2 {color:red;}
+	.header-area .col-md-10 {text-align: center;}
+	.input-search-form {width: 180px;}
+	.input-search-form input[type="search"] {width: 135px;}
+	.hero-content-area, .about-us-area {padding: 100px 0;}
+	.single-count-box {padding: 0 30px;}
+	p.date, p.location {padding-bottom: 0px; padding-right: 0;}
+	.upcoming-content-area p {padding-bottom: 4px;}
+	.upcoming-content-area h3 {padding-bottom: 31px;}
+	.colored-section {padding-top: 50px;padding-bottom: 100px;}
+	.our-team-section {padding: 60px 0;}
+	.supports-sponsors {padding-bottom: 50px;}
+	.section-title {padding: 50px 0;}
+	.newsletter-content {padding-top: 50px;padding-bottom: 60px;}
+	.email-subscribe-form input[type="email"], .email-subscribe-form input[type="submit"] {font-size: 10px;}
+	.footer-area, .footer-area a {padding: 50px 0;}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.hero-text h2 {color:green;}
+	.header-area .logo {text-align: center;padding-top: 40px;}
+	.header-area .col-md-10 {text-align: left;}
+	.input-search-form {width: 220px;}
+	.input-search-form input[type="search"] {width: 120px;}
+	.mainmenu li a {padding: 5px 15px;}
+	.mainmenu ul {padding: 10px 5px;}
+	.header-right {padding-top: 40px;}
+	.hero-content-area, .about-us-area {padding: 100px 0;}
+	.single-count-box {padding: 0 5px;}
+	.count-area {padding: 50px 0;}
+	.about-us-content {padding-bottom: 50px;}
+	.upcoming-btn {width: 100%;}
+	.section-title {padding: 50px 0;}
+	.all-session-link {padding: 50px 40px;}
+	.project-bg-1, .project-bg-2  {height: 200px;}
+	.bg-content h3 {font-size: 15px;}
+	.bg-content .author {padding: 10px 0;}
+	.bg-content p {font-size: 12px;}
+	.colored-section {padding-top: 50px;padding-bottom: 80px;}
+	.project-hover-content { padding-top: 60px;padding-left: 10px;}
+	.project-hover-content h3 {line-height: 1.5;padding-bottom: 10px;}
+	.project-hover-content p {font-size: 12px;line-height: 1.5;padding-bottom: 30px;}
+	.project-hover-content .bordered-btn {font-size: 12px; padding: 10px 12px;}
+	.our-team-section {padding: 50px 0;}
+	.team-hover-content ul.social-links li a {font-size: 14px;}
+	.single-team-bg {height: 100px; width: 100px; margin-top: 50px;}
+	.single-team-content {padding: 50px 10px;}
+	.team-hover-content h3{ padding-top: 20px;}
+	.team-hover-content p{font-size: 14px;padding-top: 10px;}
+	.footer-area p {padding: 30px 20px 30px 0;}
+	.supports-sponsors {padding-bottom: 50px;}
+	.newsletter-content {padding: 80px 0;}
+	.footer-area {padding: 50px 0;}
+	.footer-area ul.social-links li a {font-size: 15px;}
+	.footer-area ul.social-links li {margin-right: 20px;}
+	.email-subscribe-form input[type="email"], .email-subscribe-form input[type="submit"] {font-size: 10px;}
+	
+}	
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.hero-text h2 {color:orange;}
+    .header-area .logo {text-align: center;}
+	.mainmenu li {display: block;}
+	.mainmenu li a {padding: 10px 8px;}
+	.header-area .col-md-10 {text-align: left;}
+	.header-right {padding-top: 40px;}
+	.hero-content-area, .about-us-area {padding: 50px 0;}
+	.hero-text h2 {font-size: 20px; padding-bottom: 10px;}
+	.hero-text p {font-size: 12px; line-height: 1.5;}
+	a.boxed-btn {font-size: 10px;font-weight: 300;padding: 10px 15px;margin-right: 20px;}
+	.bordered-btn {font-size: 10px;font-weight: 300; padding: 10px 15px;}
+	.hero-btns {padding-top: 20px;}
+	.single-count-box {padding: 0 10px;}
+	.count-area {padding-top: 50px; padding-bottom: 10px;}
+	.single-count-box h1 {font-size: 30px; padding-top: 20px; padding-bottom: 10px;}
+	.count-box-content {padding-bottom: 50px;}
+	.about-us-content {font-size: 14px;line-height: 1.5;padding-right: 0px;}
+	.about-us-content h1 {font-size: 25px;}
+	.about-us-area .bordered-btn {margin-top: 10px;margin-bottom: 50px;}
+	.about-us-content p { padding-top: 10px;}
+	.video-play-btn {height: 80px;width: 80px;right: 35%;font-size: 30px;line-height: 80px;}
+	.upcoming-img {height: 200px;}
+	.section-title {padding: 30px 0;}
+	.section-title  h1 {font-size: 25px;}
+	.upcoming-content-area {font-size: 13px; padding-left: 0px;padding-right: 0px;}
+	.upcomin-content {padding: 10px;}
+	.upcoming-content-area h3 {padding-bottom: 10px;}
+	.upcoming-content-area p { line-height: 1.5;padding-bottom: 10px;padding-right: 0px;}
+	.upcoming-btn {font-size: 14px;padding: 15px 0;width: 100%;}
+	.all-session-link {padding-top: 20px; padding-bottom: 50px;}
+	.all-session-link p {line-height: 1.5;font-size: 14px;}
+	.all-session-link .col-md-5 {text-align: center;}
+	.colored-section { padding-top: 50px;padding-bottom: 30px;}
+	.colored-section-title h1 {font-size: 25px; padding-bottom: 40px;}
+	.project-title li {text-align: left; padding-left: 10px;display: block; padding-right: 0px;}
+	.project-title {margin: 0 0 20px;}
+	.project-bg-1, .project-bg-2  {height: 150px;}
+	.bg-content .author {padding: 10px 0;}
+	.single-project-item, .single-team-item, .project-hover {margin-bottom: 30px;}
+	.project-hover-content h3 {line-height: 1.5;padding-bottom: 0px;}
+	.project-hover-content p { line-height: 1.5; padding-bottom: 20px;}
+	.project-hover-content {padding-top: 45px;}
+	.our-team-section {padding-top: 40px; padding-bottom: 80px;}
+	.our-team-section .section-title {padding-bottom: 40px;}
+	.single-team-content {padding: 50px 0px;}
+	.supports-sponsors {padding-bottom: 40px;}
+	.single-logo-item {height: 50px;}
+	.newsletter-content {padding: 50px 0;}
+	.email-subscribe-form input[type="email"], .email-subscribe-form input[type="submit"] {font-size: 8px;}
+	.footer-area {padding: 50px 0;}
+	.footer-area p {padding: 10px 0px 5px 0;}
+	.footer-area .col-sm-4 {padding-bottom: 50px;}
+	
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.hero-text h2 {color:yellow;}
+}
